@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade2Corolario/1185818338_3013601084_223132457.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade2Corolario/624642324_2844360058_1957210156.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade2Corolario/624642324_3292348811_1662680548.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade2Corolario/624642324_206138768_259308419.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade2Corolario/624642324_3692627334_838898396.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade2Corolario/624642324_4217992463_1694281949.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade2Corolario/624642324_373160767_2420296903.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade2Corolario/624642324_206138768_2846821506.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade2Corolario/624642324_995630779_3876246050.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade2Corolario/624642324_1038707267_2187312693.mp4'

@@ -1,0 +1,13 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade2CasoEspecial/1185818338_2623836677_223132457.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade2CasoEspecial/624642324_2844360058_138082941.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade2CasoEspecial/624642324_2935643092_1763565215.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade2CasoEspecial/624642324_206138768_2041546143.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade2CasoEspecial/624642324_4247346365_3383542942.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade2CasoEspecial/624642324_2552855209_2382722619.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade2CasoEspecial/624642324_686712280_2650153192.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade2CasoEspecial/624642324_3394500337_1253497321.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade2CasoEspecial/624642324_2648447383_3265886072.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade2CasoEspecial/624642324_2552855209_3482803018.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade2CasoEspecial/624642324_284482850_3971575064.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade2CasoEspecial/624642324_2552855209_1427876345.mp4'

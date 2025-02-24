@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade3/1185818338_2471641748_223132457.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade3/624642324_2844360058_2439269974.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade3/624642324_4280806716_3054486111.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade3/624642324_1038707267_4061065694.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade3/624642324_3984446167_3130697722.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade3/624642324_1038707267_2388545644.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade3/624642324_658827004_93603262.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade3/624642324_206138768_791200379.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade3/624642324_1578818267_2291527342.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/ep/media/videos/main/480p15/partial_movie_files/Propriedade3/624642324_1038707267_498569790.mp4'
