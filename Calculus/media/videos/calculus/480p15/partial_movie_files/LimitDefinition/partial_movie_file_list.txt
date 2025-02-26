@@ -1,0 +1,13 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/Calculus/media/videos/calculus/480p15/partial_movie_files/LimitDefinition/1185818338_2523597890_223132457.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/Calculus/media/videos/calculus/480p15/partial_movie_files/LimitDefinition/624642324_4217992463_3673997261.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/Calculus/media/videos/calculus/480p15/partial_movie_files/LimitDefinition/624642324_389325084_785027233.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/Calculus/media/videos/calculus/480p15/partial_movie_files/LimitDefinition/624642324_4217992463_4160809223.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/Calculus/media/videos/calculus/480p15/partial_movie_files/LimitDefinition/624642324_2604284924_392230031.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/Calculus/media/videos/calculus/480p15/partial_movie_files/LimitDefinition/624642324_4217992463_818640658.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/Calculus/media/videos/calculus/480p15/partial_movie_files/LimitDefinition/624642324_2546833342_4116955638.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/Calculus/media/videos/calculus/480p15/partial_movie_files/LimitDefinition/624642324_4217992463_554868190.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/Calculus/media/videos/calculus/480p15/partial_movie_files/LimitDefinition/624642324_2142272029_2681484064.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/Calculus/media/videos/calculus/480p15/partial_movie_files/LimitDefinition/624642324_2844360058_3846000467.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/Calculus/media/videos/calculus/480p15/partial_movie_files/LimitDefinition/624642324_3551534350_2879475770.mp4'
+file 'file:C:/Users/dayan/OneDrive/Área de Trabalho/Importações do Github/math-animations/Calculus/media/videos/calculus/480p15/partial_movie_files/LimitDefinition/624642324_2844360058_3609600432.mp4'
