@@ -103,7 +103,7 @@ class AltLimitDefinition(Scene):
         )
 
         # Título e fórmula
-        title = Tex("Definição Alternativa da Derivada", font_size=32).to_edge(UP)
+        title = Tex("Definição (Alternativa) da Derivada", font_size=32).to_edge(UP)
         formula = MathTex(
             r"f'(a) = \lim_{x \to a} \frac{f(x) - f(a)}{x - a}",
             font_size=28
@@ -111,15 +111,18 @@ class AltLimitDefinition(Scene):
 
         # Ponto fixo (a, f(a))
         dot_a = Dot(axes.c2p(a, func(a)), color=YELLOW)
-        label_a = MathTex(r"(a, f(a))", font_size=24).next_to(dot_a, UP)
+        label_a = MathTex(r"(a, f(a))", font_size=24).next_to(dot_a, LEFT)
 
-        # Ponto móvel (x, f(x)) e reta secante
+        # Ponto móvel (x, f(x))
         x_tracker = ValueTracker(2.0) 
         dot_x = always_redraw(
             lambda: Dot(
                 axes.c2p(x_tracker.get_value(), func(x_tracker.get_value())),
                 color=RED
             )
+        )
+        label_x = always_redraw(
+            lambda: MathTex(r"(x, f(x))", font_size=24).next_to(dot_x, LEFT)
         )
 
         # Reta secante entre (a, f(a)) e (x, f(x))
@@ -147,7 +150,7 @@ class AltLimitDefinition(Scene):
         self.wait(1)
 
         # Passo 4: Mostrar ponto móvel e reta secante
-        self.play(FadeIn(dot_x), Create(secant_line))
+        self.play(FadeIn(dot_x), Write(label_x), Create(secant_line))
         self.wait(1)
         
         # Animação de x → a
@@ -156,8 +159,73 @@ class AltLimitDefinition(Scene):
             run_time=5,
             rate_func=linear
         )
+        self.play(FadeOut(label_x), run_time=0.07)
         self.wait(2)
         
         # Animação final (reta tangente)
         self.play(Create(tangent_line))
         self.wait(2)
+
+class RegraConstante(Scene):
+    def construct(self):
+
+        # Equação 1: Derivada
+        eq1 = MathTex( r"f'(a)=  \lim_{h \to 0}  \frac{f(a+h)-f(a)}{h}")
+        eq1.center()
+
+        texto1 = Tex("Pela definição,")
+        texto1.next_to(eq1, UP).shift(LEFT * 3)
+
+        # Equação 2: Definição de f(a) = c
+        eq2 = MathTex(
+            r"\text{Seja}\quad f(a) = c\implies f(a+h) = c",
+            )
+        eq2.to_edge(UP)  # Posiciona no canto superior
+
+        texto2 = Tex(", temos:")    
+        texto2.next_to(eq2, RIGHT)
+
+        eq3 = MathTex(r"f'(a)=\lim_{h \to 0}\frac{c-c}{h}")
+        eq4 = MathTex(r"f'(a)=\lim_{h \to 0} 0")
+        eq5 = MathTex(r"f'(a)=0")
+
+        # self.add(index_labels(eq1[0]))    # index the first (and only) term of the MathTex mob
+
+        # Animações 
+        self.play(Write(texto1))
+        self.play(Write(eq1))
+        self.wait(1)
+        self.play(Write(eq2))
+        self.wait(2)
+        self.play(Write(texto2))
+
+class FuncaoReciproca(Scene):
+    def construct(self):
+
+        # Definição
+        texto1 = Tex("Pela definição,")
+        eq1 = MathTex("g'(a)", "=", r"\lim_{h \to 0}", r"\frac{g(a+h)-g(a)}{h}")
+
+        # Suposição
+        eq2 = MathTex(
+            r"\text{Suponha: }", "g(a)", "=", r"\frac{1}{f(a)}", r"\quad", r"\text{e}", r"\quad", "g(a+h)", "=", r"\frac{1}{f(a+h)}"
+            ).to_edge(UP)
+
+        eq3 = MathTex("g'(a)", "=", r"\lim_{h \to 0}", r"\frac{\frac{1}{f(a+h)}-\frac{1}{f(a)}}{h}")
+        eq4 = MathTex("g'(a)", "=", r"\lim_{h \to 0}", r"\frac{ \frac{f(a)-f(a+h)}{f(a+h)f(a)} }{h}")
+        eq5 = MathTex("g'(a)", "=", r"\lim_{h \to 0}", r"\frac{- \frac{f(a+h)-f(a)}{f(a+h)f(a)} }{h}")
+
+
+
+        self.play(FadeIn(texto1))
+        self.play(FadeOut(texto1))
+        self.play(Write(eq1))
+        self.wait(1)
+        self.play(Write(eq2))
+
+        self.play(TransformMatchingTex(eq1, eq3), FadeOut(eq2))
+        self.wait(2)
+        self.play(TransformMatchingTex(eq3, eq4))
+        self.wait(1)
+        self.play(TransformMatchingTex(eq3, eq4))
+        self.wait(1)
